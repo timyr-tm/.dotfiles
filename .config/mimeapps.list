@@ -1,0 +1,6 @@
+[Added Associations]
+text/plain=code.desktop;
+
+[Default Applications]
+text/plain=code.desktop;
+inode/directory=yazi.desktop;
