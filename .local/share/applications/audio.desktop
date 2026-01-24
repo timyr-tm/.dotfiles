@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Audio
+GenericName=Selecting an audio output device
+GenericName[ru]=test
+Icon=audio-volume-high
+Exec=rofi -show audio -theme audio

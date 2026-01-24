@@ -41,6 +41,7 @@
         "scroll-step": 5.0,
         "format-muted": "󰝟",
         "format-icons": ["󰕿", "󰖀", "󰕾"],
+        "on-click": "rofi -show audio -theme audio",
         "states": {
             "warning": 70,
             "critical": 30

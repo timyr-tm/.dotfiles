@@ -1,0 +1,49 @@
+configuration {
+    modes: "audio";
+    kb-move-char-back: "";
+    kb-move-char-forward: "";
+    kb-mode-previous: "";
+    kb-mode-next: "";
+    kb-custom-1: "Left";
+    kb-custom-2: "Shift+Left";
+    kb-custom-3: "Right";
+    kb-custom-4: "Shift+Right";
+}
+
+* {
+    font: "FiraCode 12";
+    background-color: #00000000;
+    text-color: #cdd6f4;
+}
+
+window {
+    children: [listview];
+    background-color: #1e1e2e;
+    border-radius: 10px;
+    width: 700px;
+}
+
+listview {
+    children: [element];
+    lines: 5;
+}
+
+element {
+    children: [element-icon, element-text];
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0;
+}
+
+element selected {
+    background-color: #313244;
+}
+
+element-text selected {
+    text-color: #89b4fa;
+}
+
+element-icon {
+    size: 24px;
+}
